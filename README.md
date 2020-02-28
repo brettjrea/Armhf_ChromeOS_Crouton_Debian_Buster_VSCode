@@ -33,12 +33,16 @@ Type `shell` hit enter.
 #### Install some basic software while in crouton and then exit.
 `sudo apt install xterm xinit wget curl git -y`
 
+#### Add repositories for code-oss.
 `curl -s https://packagecloud.io/install/repositories/headmelted/codebuilds/script.deb.sh | sudo bash`
 
+#### Retrieve code-oss with wget.
 `wget --content-disposition https://packagecloud.io/headmelted/codebuilds/packages/debian/stretch/code-oss_1.43.0-1581920809_armhf.deb/download.deb`
 
+#### Manually install code-oss.
 `sudo apt install code-oss_1.43.0-1581920809_armhf.deb`
 
+#### Exit to chrosh.
 `exit`
 
 #### Install additional targets.
