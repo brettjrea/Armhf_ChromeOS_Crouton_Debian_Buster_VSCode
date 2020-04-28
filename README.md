@@ -1,6 +1,6 @@
-# ChromeOS_Crouton_Debian_Buster_VSCode
+### ChromeOS_Crouton_Debian_Buster_VSCode
 
-### The following instructions are written and depend on the repositories files being found in the ~/Downloads folder.
+##### *The following instructions are written and depend on the repositories files being found in the ~/Downloads folder.*
 
 ### Put Chromebook in developer mode.
 For my model it was `Esc + Refresh` and once you are at the recovery screen press `Ctrl + D` and `enter` to confirm.
